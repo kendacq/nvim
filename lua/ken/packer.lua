@@ -3,6 +3,10 @@ return require('packer').startup(function(use)
 
 	use 'rstacruz/vim-closer'
 
+	use 'neovim/nvim-lspconfig'
+	use 'mason-org/mason.nvim'
+	use 'mason-org/mason-lspconfig.nvim'
+
 	use {
 		'nvim-telescope/telescope.nvim', tag = 'v0.1.9',
 		requires = { {'nvim-lua/plenary.nvim'} }
